@@ -1,5 +1,6 @@
 require "komerci/version"
 
 module Komerci
-  # Your code goes here...
+  autoload :Transaction, "komerci/transaction"
+  autoload :Authorization, "komerci/authorization"
 end
